@@ -1,0 +1,3838 @@
+[
+    {
+        "id": "d4d7245780a32437",
+        "type": "tab",
+        "label": "Solar Charts",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "96f588f9a8a3a9d5",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 1160,
+        "y": 1660,
+        "wires": [
+            [
+                "f0e27a5667a5274e",
+                "f5d496b0182809ab",
+                "9ea01099483f9c09"
+            ]
+        ]
+    },
+    {
+        "id": "08f8df7d1ea1defb",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1740,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "dc41781ef7fb48a1",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1720,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "7178836db5b821f3",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1700,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "8095e27d485e674f",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1680,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "a78c591a146f8f28",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1660,
+        "wires": [
+            [
+                "77619acaa5bf9874",
+                "a1dec36a289a9a80"
+            ]
+        ]
+    },
+    {
+        "id": "3f0d4930dad036f4",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1640,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "32f348e8a53d525d",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1620,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "ddc2ec0c2e1d6443",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1600,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "edd5b6b61f21ce52",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 460,
+        "y": 940,
+        "wires": [
+            [
+                "f02f9f939e0e8f18",
+                "32bcc241a8863b4e",
+                "a57ee0fc9b8db3b5",
+                "334e7f1cb25a2b23",
+                "4a3c279d26138d63",
+                "262f93cb51e08b1e",
+                "bfc0da52935d0b24",
+                "83574cc9ffa80816",
+                "801ca53ee433e03c"
+            ]
+        ]
+    },
+    {
+        "id": "734c4bbeb11b2062",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 260,
+        "y": 940,
+        "wires": [
+            [
+                "ed4987be6265aa87"
+            ]
+        ]
+    },
+    {
+        "id": "584f9339de8e4167",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1760,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "419c0476d5f4f71c",
+        "type": "junction",
+        "z": "d4d7245780a32437",
+        "x": 220,
+        "y": 1580,
+        "wires": [
+            [
+                "a1dec36a289a9a80",
+                "77619acaa5bf9874"
+            ]
+        ]
+    },
+    {
+        "id": "1c3730fd.8b14bf",
+        "type": "ui_group",
+        "name": "Filters",
+        "tab": "87a81d36.273de",
+        "order": 1,
+        "disp": false,
+        "width": 26,
+        "collapse": false
+    },
+    {
+        "id": "bef36201.29e7b",
+        "type": "ui_group",
+        "name": "System",
+        "tab": "80dd549a.a4f758",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "5c0a4bfe.408644",
+        "type": "ui_group",
+        "name": "Monitor Readings",
+        "tab": "80dd549a.a4f758",
+        "order": 2,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "2f66919c.102b7e",
+        "type": "ui_group",
+        "name": "Max Readings",
+        "tab": "80dd549a.a4f758",
+        "order": 5,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "46f6466b.ee5518",
+        "type": "ui_group",
+        "name": "Solar Panel Readings",
+        "tab": "80dd549a.a4f758",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "fdf6cd28.ce653",
+        "type": "ui_group",
+        "name": "Controller Readings",
+        "tab": "80dd549a.a4f758",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "529afbd3.e1bf54",
+        "type": "ui_group",
+        "name": "Solar Generation",
+        "tab": "5bccb4ba.18305c",
+        "order": 6,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "4422b57.5851e4c",
+        "type": "ui_group",
+        "name": "Trimetric Min Readings",
+        "tab": "5bccb4ba.18305c",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "877d63a3.c3b33",
+        "type": "ui_group",
+        "name": "Trimetric Max Readings",
+        "tab": "5bccb4ba.18305c",
+        "order": 2,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "5718a5a8.f8411c",
+        "type": "ui_group",
+        "name": "General Parameters",
+        "tab": "8aa420a3.e0b61",
+        "order": 1,
+        "disp": true,
+        "width": 27,
+        "collapse": false
+    },
+    {
+        "id": "4a67c534.ba6e6c",
+        "type": "ui_group",
+        "name": "Advanced settings",
+        "tab": "8aa420a3.e0b61",
+        "order": 2,
+        "disp": true,
+        "width": 27,
+        "collapse": false
+    },
+    {
+        "id": "859a02e0.c8257",
+        "type": "sqlitedb",
+        "db": "/media/solarpi/SOLARUSB/SolarMonitor/SolarDataCollection.db",
+        "mode": "RO"
+    },
+    {
+        "id": "87a81d36.273de",
+        "type": "ui_tab",
+        "name": "Report Graph",
+        "icon": "fa-line-chart",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "80dd549a.a4f758",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "wb_sunny",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5bccb4ba.18305c",
+        "type": "ui_tab",
+        "name": "KPI",
+        "icon": "fa-balance-scale",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8aa420a3.e0b61",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "settings",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "62027bcc172ed43d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "RV Solar Information",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 55,
+                "sy": 45,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6151832c4918806c",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "5718a5a8.f8411c",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b7cf32e3501b7143",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "5718a5a8.f8411c",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "654c82304986a4ef",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "5718a5a8.f8411c",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b6e10886c96e8a53",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "5718a5a8.f8411c",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6ca17991eba17779",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "4bfc28b60a4e8c60",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d25d656ea8a479b4",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f20c861186e756f3",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "2a9dbb8589f5c949",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "1a62086f88806cbc",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "565c4f6f203ea0cb",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 13,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a2d43aedc408146d",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 14,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "899b9c457e13e7a2",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f5f85184ff9d9346",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 18,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "628893d5264da305",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 20,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0c314c608a89189b",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 21,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "169675ee95611740",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 23,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "fdc288d9b7918b3e",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 25,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e7b1d17ba89d94d4",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 27,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ea69ed0b63ba39e1",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 28,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "98d8f702fb4d4940",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 30,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "16811c304808a85c",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 32,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e23742214d17392d",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 34,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6eb8599b4aed4122",
+        "type": "ui_spacer",
+        "z": "d4d7245780a32437",
+        "name": "spacer",
+        "group": "4a67c534.ba6e6c",
+        "order": 35,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f5d496b0182809ab",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Chart Prep (old)",
+        "func": "var msg2 = [];\nvar mylastselection = msg.lastselection;\n// selectionlist = [];\n// selectionlist[0][1]\n\nif (msg.payload[0].length>0) {\n    // this is the logic when there are multiple data sets are received\n    for (var i=0; i<msg.payload.length; i++) {\n        var output = [];\n        for (var j=0; j<msg.payload[i].length; j++) {\n            // output.push([msg.payload[i][j][\"Date Time\"], msg.payload[i][j][\"\"+mylastselection+\"\"]]);\n            //output.push([msg.payload[i][j][\"Date Time\"], msg.payload[i][j][msg.selectionlist[0][i]]]);\n            output.push([msg.payload[i][j][\"Epoch\"], msg.payload[i][j][msg.selectionlist[0][i]]]);\n        }\n        // msg2.push({ key: msg.payload[i][0].device+\"/\"+msg.payload[i][0].sensor, values : output});\n        msg2.push({ key: msg.selectionlist[0][i], values : output});\n        //msg2.push({ key: \"test\", values : output});\n    }\n} \n\nmsg.payload=msg2;\n//msg.payload = [ { key: \"Power\", values : output} ];\n//msg.topic = \"Power\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d902a652ffb37c9",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "Reset chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1010,
+        "y": 1880,
+        "wires": [
+            [
+                "11b3f2eb5ae6b46b"
+            ]
+        ]
+    },
+    {
+        "id": "11b3f2eb5ae6b46b",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Empty payload",
+        "func": "msg.payload = [];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1260,
+        "y": 1880,
+        "wires": [
+            [
+                "8b62a244631331ce"
+            ]
+        ]
+    },
+    {
+        "id": "1513db1dd5ee5559",
+        "type": "join",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1090,
+        "y": 1660,
+        "wires": [
+            [
+                "96f588f9a8a3a9d5"
+            ]
+        ]
+    },
+    {
+        "id": "6e02cb79d7f8146d",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "today",
+        "payloadType": "str",
+        "x": 250,
+        "y": 1400,
+        "wires": [
+            [
+                "b167e980b2471b20"
+            ]
+        ]
+    },
+    {
+        "id": "77619acaa5bf9874",
+        "type": "change",
+        "z": "d4d7245780a32437",
+        "name": "Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 248,
+        "y": 1460,
+        "wires": [
+            [
+                "b167e980b2471b20"
+            ]
+        ]
+    },
+    {
+        "id": "f0e27a5667a5274e",
+        "type": "change",
+        "z": "d4d7245780a32437",
+        "name": "Final Title",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "title",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 1620,
+        "wires": [
+            [
+                "c2c5fb6ad0e29c7e"
+            ]
+        ]
+    },
+    {
+        "id": "1837f9a4218daec6",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 1660,
+        "wires": [
+            [
+                "0db6394bcd7a6d16"
+            ]
+        ]
+    },
+    {
+        "id": "f02f9f939e0e8f18",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\nvar periodrange = p_30d;\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h;\nvar currentperiod_endrecord = currentperiod_startrecord + p_10s;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Watt Hours Generated Total\" AS value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nvar midperiod_startrecord = currentperiod_startrecord - periodrange;\nvar midperiod_endrecord = midperiod_startrecord + p_10s;\n\ndt.setTime(midperiod_startrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nfromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(midperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nenddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Watt Hours Generated Total\" AS value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nvar previousperiod_startrecord = midperiod_startrecord - periodrange;\nvar previousperiod_endrecord = previousperiod_startrecord + p_10s;\n\ndt.setTime(previousperiod_startrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nfromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(previousperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nenddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Watt Hours Generated Total\" As value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 720,
+        "wires": [
+            [
+                "553183bab6a6398a"
+            ]
+        ]
+    },
+    {
+        "id": "4d92fb9bb70f299d",
+        "type": "join",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1150,
+        "y": 720,
+        "wires": [
+            [
+                "81cf9d0c494f244c"
+            ]
+        ]
+    },
+    {
+        "id": "81cf9d0c494f244c",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "// Output format for the ui_template node\n// msg.current: current values displayed in large numbers\n// msg.unit: unit value shown under the current value\n// msg.trend = up|down: displays the up/down trend arrow\n// msg.reference: reference/past value displayed in smaller numbers\n// msg.title: KPI title shown on the top\n\nvar currentvalue = msg.payload[0][0].value;\nvar midvalue = msg.payload[1][0].value;\nvar previousvalue = msg.payload[2][0].value;\n\nvar currentperiod = currentvalue - midvalue;\nvar previousperiod = midvalue - previousvalue;\n\nmsg.title = \"Solar generation in last 30 days\";\nmsg.current = Math.floor(currentperiod/1000);\nmsg.unit = \"kWh\";\nmsg.reference = Math.floor(previousperiod/1000);\n\nif (currentperiod>previousperiod) {\n    msg.trend = \"up\";\n} else {\n    msg.trend = \"down\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 720,
+        "wires": [
+            [
+                "d7f511763bdbf408"
+            ]
+        ]
+    },
+    {
+        "id": "553183bab6a6398a",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 720,
+        "wires": [
+            [
+                "deab048f0129530f"
+            ]
+        ]
+    },
+    {
+        "id": "32bcc241a8863b4e",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\nvar periodrange = p_7d;\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h;\nvar currentperiod_endrecord = currentperiod_startrecord + p_10s;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Watt Hours Generated Total\" AS value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nvar midperiod_startrecord = currentperiod_startrecord - periodrange;\nvar midperiod_endrecord = midperiod_startrecord + p_10s;\n\ndt.setTime(midperiod_startrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nfromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(midperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nenddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Watt Hours Generated Total\" AS value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nvar previousperiod_startrecord = midperiod_startrecord - periodrange;\nvar previousperiod_endrecord = previousperiod_startrecord + p_10s;\n\ndt.setTime(previousperiod_startrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nfromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(previousperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nenddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Watt Hours Generated Total\" As value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 780,
+        "wires": [
+            [
+                "316f9ff56dc53bfd"
+            ]
+        ]
+    },
+    {
+        "id": "ce7f186e34b7197c",
+        "type": "join",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1150,
+        "y": 780,
+        "wires": [
+            [
+                "4c188a74aa2e9aad"
+            ]
+        ]
+    },
+    {
+        "id": "4c188a74aa2e9aad",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "// Output format for the ui_template node\n// msg.current: current values displayed in large numbers\n// msg.unit: unit value shown under the current value\n// msg.trend = up|down: displays the up/down trend arrow\n// msg.reference: reference/past value displayed in smaller numbers\n// msg.title: KPI title shown on the top\n\nvar currentvalue = msg.payload[0][0].value;\nvar midvalue = msg.payload[1][0].value;\nvar previousvalue = msg.payload[2][0].value;\n\nvar currentperiod = currentvalue - midvalue;\nvar previousperiod = midvalue - previousvalue;\n\nmsg.title = \"Solar generation in last 7 days\";\nmsg.current = parseFloat(currentperiod/1000).toFixed(1);\nmsg.unit = \"kWh\";\nmsg.reference = Math.abs(Math.floor((currentperiod-previousperiod)/currentperiod*100)) + \"%\";\n\nif (currentperiod>previousperiod) {\n    msg.trend = \"up\";\n} else {\n    msg.trend = \"down\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 780,
+        "wires": [
+            [
+                "9451a7d93faa7507"
+            ]
+        ]
+    },
+    {
+        "id": "316f9ff56dc53bfd",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 780,
+        "wires": [
+            [
+                "9402050d6cbafd7f"
+            ]
+        ]
+    },
+    {
+        "id": "a57ee0fc9b8db3b5",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h;\nvar currentperiod_endrecord = currentperiod_startrecord + p_10s;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT \"Renogy Rover Battery Maximum Wattage Generated\" AS value FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 840,
+        "wires": [
+            [
+                "8bf32c79c60699d7"
+            ]
+        ]
+    },
+    {
+        "id": "abc527d1b12cfd49",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "// Output format for the ui_template node\n// msg.current: current values displayed in large numbers\n// msg.unit: unit value shown under the current value\n// msg.trend = up|down: displays the up/down trend arrow\n// msg.reference: reference/past value displayed in smaller numbers\n// msg.title: KPI title shown on the top\nvar width = 0;\n\nmsg.title = \"Maximum solar wattage yesterday vs. max\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"Watts\";\nwidth = parseFloat(msg.payload[0].value/400*100).toFixed(2);\nmsg.reference = width.toString() + \"%\";\nmsg.reference2 = (100-width).toString() + \"%\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 840,
+        "wires": [
+            [
+                "fd2f84e0ad42eed1"
+            ]
+        ]
+    },
+    {
+        "id": "13127477e2ce6eaa",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\n\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = current;\nvar currentperiod_endrecord = currentperiod_startrecord + p_10s;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":00\";\n\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":10\";\n\nsql.push({ topic: 'SELECT \"Renogy Rover Controller Temperature\" AS value1, '+\n    '\"Renogy Rover Battery Temperature\" AS value2, '+\n    '\"Renogy Rover Charging State Label\" AS value3, '+\n    '\"Trimetric Watts\" AS value4, '+\n    '\"Renogy Rover Battery Maximum Wattage Generated\" AS value5, '+\n    '\"Renogy Rover Solar Panel Voltage Actual\" AS value6, '+\n    '\"Renogy Rover Solar Panel Amperage Actual\" AS value7, '+\n    '\"Renogy Rover Solar Panel Wattage Actual\" AS value8, '+\n    '\"Trimetric Amperage\" AS value9, '+\n    '\"Trimetric Voltage\" AS value10, '+\n    '\"Renogy Rover Battery Voltage Actual\" AS value11, '+\n    '\"Renogy Rover Battery Charging Amperage Actual\" AS value12, '+\n    '\"Renogy Rover Battery Voltage Max\" AS value13, '+\n    '\"Renogy Rover Battery Charging Amperage Max\" AS value14, '+\n    '\"Trimetric Amp Hours\" AS value15 '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 340,
+        "wires": [
+            [
+                "1ade08d1a6a00913"
+            ]
+        ]
+    },
+    {
+        "id": "c29967350a7c8d51",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "\nvar output1 = {payload:msg.payload[0].value1};\nvar output2 = {payload:msg.payload[0].value2};\nvar output3 = {payload:msg.payload[0].value3};\nvar output4 = {payload:msg.payload[0].value4};\nvar output5 = {payload:msg.payload[0].value5};\nvar output6 = {payload:msg.payload[0].value6};\nvar output7 = {payload:msg.payload[0].value7};\nvar output8 = {payload:msg.payload[0].value8};\nvar output9 = {payload:msg.payload[0].value9};\nvar output10 = {payload:msg.payload[0].value10};\nvar output11 = {payload:msg.payload[0].value11};\nvar output12 = {payload:msg.payload[0].value12};\nvar output13 = {payload:msg.payload[0].value13};\nvar output14 = {payload:msg.payload[0].value14};\nvar output15 = {payload:msg.payload[0].value15};\n\nreturn [output1,output2,output3,output4,output5,output6,output7,output8,output9,output10,output11,output12,output13,output14,output15];",
+        "outputs": 15,
+        "noerr": 0,
+        "x": 1020,
+        "y": 340,
+        "wires": [
+            [
+                "1a4c3d2c171535f7"
+            ],
+            [
+                "771fd90759521557"
+            ],
+            [
+                "1f322141a911cadd"
+            ],
+            [
+                "0a2bc0527ea8a649"
+            ],
+            [
+                "dbfac530cde9ac05"
+            ],
+            [
+                "243154080c931645"
+            ],
+            [
+                "47444f6d277dc2eb"
+            ],
+            [
+                "aaf421c24a047d5b"
+            ],
+            [
+                "7e92bcfc9b6f462a"
+            ],
+            [
+                "439e9f9d99875ca5"
+            ],
+            [
+                "71f899022fed4c97"
+            ],
+            [
+                "5ae6ade3dc0eaf8b"
+            ],
+            [
+                "0f76458d4081ca38"
+            ],
+            [
+                "bc14244ff9e04f55"
+            ],
+            [
+                "b2bdb856f09dfe61"
+            ]
+        ]
+    },
+    {
+        "id": "6503ebc25d030be0",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "Dashboard nodes",
+        "info": "This section updates once every minute. Retreives the data from the database.",
+        "x": 130,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "169d5b3ec85b37cb",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "KPI nodes",
+        "info": "",
+        "x": 100,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "f70d0700de491fe2",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "Report graph nodes",
+        "info": "",
+        "x": 130,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "057770f0045ddae3",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "msg.title = \"Min Wattage Last 7 Days\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"W\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1300,
+        "y": 1200,
+        "wires": [
+            [
+                "106ea75bd091d178"
+            ]
+        ]
+    },
+    {
+        "id": "801ca53ee433e03c",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h - p_7d;\nvar currentperiod_endrecord = today0h;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT MIN(\"Trimetric Watts\") AS value '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1200,
+        "wires": [
+            [
+                "4174a22ce7975b38"
+            ]
+        ]
+    },
+    {
+        "id": "75c382be2b7a2eb8",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 980,
+        "wires": [
+            [
+                "734c4bbeb11b2062"
+            ]
+        ]
+    },
+    {
+        "id": "334e7f1cb25a2b23",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h - p_7d;\nvar currentperiod_endrecord = today0h;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT MAX(\"Trimetric Voltage\") AS value '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 900,
+        "wires": [
+            [
+                "057152b3675178d3"
+            ]
+        ]
+    },
+    {
+        "id": "113bc69c4bf68229",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "msg.title = \"Max Voltage Last 7 Days\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"V\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1300,
+        "y": 900,
+        "wires": [
+            [
+                "a1d636e43d47eb7a"
+            ]
+        ]
+    },
+    {
+        "id": "4a3c279d26138d63",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h - p_7d;\nvar currentperiod_endrecord = today0h;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT MAX(\"Trimetric Amperage\") AS value '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 960,
+        "wires": [
+            [
+                "9c64ed8036520391"
+            ]
+        ]
+    },
+    {
+        "id": "437d1ba17cda5a6d",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "msg.title = \"Max Amperage Last 7 Days\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"A\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1300,
+        "y": 960,
+        "wires": [
+            [
+                "21887d496ecf8d86"
+            ]
+        ]
+    },
+    {
+        "id": "262f93cb51e08b1e",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h - p_7d;\nvar currentperiod_endrecord = today0h;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT MAX(\"Trimetric Watts\") AS value '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1020,
+        "wires": [
+            [
+                "7728ba8eb27a7298"
+            ]
+        ]
+    },
+    {
+        "id": "21ccc3d10e98f4a5",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "msg.title = \"Max Wattage Last 7 Days\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"W\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1300,
+        "y": 1020,
+        "wires": [
+            [
+                "2813800616609f38"
+            ]
+        ]
+    },
+    {
+        "id": "bfc0da52935d0b24",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h - p_7d;\nvar currentperiod_endrecord = today0h;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT MIN(\"Trimetric Voltage\") AS value '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1080,
+        "wires": [
+            [
+                "bc105e20a8ce40f5"
+            ]
+        ]
+    },
+    {
+        "id": "259a20fbbbfb8aeb",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "msg.title = \"Min Voltage Last 7 Days\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"V\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1300,
+        "y": 1080,
+        "wires": [
+            [
+                "cb473ef573658b0f"
+            ]
+        ]
+    },
+    {
+        "id": "83574cc9ffa80816",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "var p_30d  = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_2d = 1000*60*60*24*2 ; //2 Days\nvar p_1d   =  1000*60*60*24 ; // 1 Day\nvar p_10s = 1000*10; // 10 Seconds\n\nvar dt = new Date();\nvar current = dt.getTime();\nvar today0h = dt.setHours(0,0,0,0);\nvar day = dt.getDay();\nvar monday0h = today0h - (day + (day === 0 ? -6:1)) * p_1d;\n\nvar sql = [];\n\nvar currentperiod_startrecord = today0h - p_7d;\nvar currentperiod_endrecord = today0h;\n\ndt.setTime(currentperiod_startrecord);\nvar yyyy = dt.getFullYear();\nvar mm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\nvar dd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nvar hh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nvar mmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nvar ss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar fromdatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\ndt.setTime(currentperiod_endrecord);\nyyyy = dt.getFullYear();\nmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\ndd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\nhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\nmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\nss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\nvar enddatetime = yyyy + \"-\" +mm+ \"-\" + dd + \" \" + hh + \":\" + mmm + \":\" + ss;\n\nsql.push({ topic: 'SELECT MIN(\"Trimetric Amperage\") AS value '+\n    'FROM \"Raw Solar Data\" '+\n    'WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"'\n});\n\nsql[sql.length-1].complete=true;\n\nreturn [ sql ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1140,
+        "wires": [
+            [
+                "b54b6e49042a55db"
+            ]
+        ]
+    },
+    {
+        "id": "adc3ea9fe1d879d1",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "msg.title = \"Min Amperage Last 7 Days\";\nmsg.current = msg.payload[0].value;\nmsg.unit = \"A\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1300,
+        "y": 1140,
+        "wires": [
+            [
+                "9913f387fa94d164"
+            ]
+        ]
+    },
+    {
+        "id": "2480ae5e17353a77",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 340,
+        "wires": [
+            [
+                "13127477e2ce6eaa"
+            ]
+        ]
+    },
+    {
+        "id": "1fadd5380edbae40",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "02 00 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 900,
+        "wires": [
+            [
+                "734c4bbeb11b2062"
+            ]
+        ]
+    },
+    {
+        "id": "ed4987be6265aa87",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 360,
+        "y": 940,
+        "wires": [
+            [
+                "edd5b6b61f21ce52"
+            ]
+        ]
+    },
+    {
+        "id": "a1dec36a289a9a80",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "SQL",
+        "func": "// This will handle any device and any attribute as long as it is in the DB\nvar p_90d = 1000*60*60*24*90 ; //90 Days\nvar p_60d = 1000*60*60*24*60 ; //60 Days\nvar p_30d = 1000*60*60*24*30 ; //30 Days\nvar p_7d  = 1000*60*60*24*7 ; //7 Days\nvar p_1d  = 1000*60*60*24 ; // 1 Day\nvar p_12h = 1000*60*60*12 ; // 12 hours\nvar p_6h  = 1000*60*60*6 ; // 6 hours\nvar p_4h  = 1000*60*60*4 ; // 4 hours\nvar p_2h  = 1000*60*60*2 ; // 2 hours\nvar p_1h  = 1000*60*60*1 ; // 1 hours\nvar d = new Date();\nvar current = d.getTime();\nvar today0h = d.setHours(0,0,0,0);\nvar day = d.getDay();\nvar sunday0h = today0h - (day + (day === 0 ? -0:1)) * p_1d;\nvar fromdate = 0;\nvar enddate = 0;\nvar fromdateint = 0;\nvar enddateint = 0;\nvar reducedatapoints = 0;\nvar zoompoint = 0;\nvar zoomwindow = 0;\nvar sql = [];\nvar sourcelist = [];\nvar title = \"\";\nvar fromdatetime = \"\";\nvar enddatetime = \"\";\nvar fromdatetitle = \"\";\nvar enddatetitle = \"\";\n\n\n// Get the period and the list of data sources \n// also set some default values if one or the other does not exist yet\nsourcelist = context.get(\"sourcelist\");\nif (sourcelist===undefined) { // if running for the first time\n    sourcelist = [];\n}\nfromdate = context.get(\"fromdate\");\nif (fromdate===undefined) {\n    // set the period to a default if it is not selected yet\n    fromdate = today0h;\n}\nenddate = context.get(\"enddate\");\nif (enddate===undefined) {\n    // set the period to a default if it is not selected yet\n    enddate = today0h + p_1d;\n}\n\nreducedatapoints = context.get(\"reducedatapoints\");\nif (reducedatapoints===undefined) {\n    // set the datapoints default if it is not selected yet\n    reducedatapoints = 0;\n}\n\nswitch(msg.topic) {\n    case \"period\":\n        switch(msg.payload) {\n            case \"today\":\n                fromdate = today0h;\n                enddate = today0h+p_1d;\n                break;\n            case \"yesterday\":\n                fromdate = today0h-p_1d;\n                enddate = today0h;\n                break;\n            case \"thisweek\":\n                fromdate = sunday0h;\n                enddate = sunday0h+p_7d;\n                break;\n            case \"lastweek\":\n                fromdate = sunday0h-p_7d;\n                enddate = sunday0h;\n                break;\n            case \"last24h\":\n                fromdate = current-p_1d;\n                enddate = current;\n                break;\n            case \"last12h\":\n                fromdate = current-p_12h;\n                enddate = current;\n                break;\n            case \"last6h\":\n                fromdate = current-p_6h;\n                enddate = current;\n                break;\n            case \"last4h\":\n                fromdate = current-p_4h;\n                enddate = current;\n                break;\n            case \"last2h\":\n                fromdate = current-p_2h;\n                enddate = current;\n                break;\n            case \"last1h\":\n                fromdate = current-p_1h;\n                enddate = current;\n                break;\n            case \"last7d\":\n                fromdate = current-p_7d;\n                enddate = current;\n                break;\n            case \"last30d\":\n                fromdate = current-p_30d;\n                enddate = current;\n                break;\n            case \"last60d\":\n                fromdate = current-p_60d;\n                enddate = current;\n                break;\n            case \"last90d\":\n                fromdate = current-p_90d;\n                enddate = current;\n                break;\n        }\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"datasource\":\n        if (msg.payload===\"delete\") {\n            // remove all previous data sources\n            sourcelist = [];\n        } else {\n            sourcelist = context.get(\"sourcelist\");\n            if (sourcelist===undefined) { // if running for the first time\n                sourcelist = [];\n            }\n            sourcelist.push(msg.payload);\n        }\n        context.set(\"sourcelist\",sourcelist);\n        break;\n    case \"minus4w\":\n        fromdate = fromdate - (p_7d)*4;\n        enddate = enddate - (p_7d)*4;\n        context.set(\"fromdate\", fromdate);\n        context.set(\"enddate\", enddate);\n        break;\n    case \"plus4w\":\n        fromdate = fromdate + (p_7d)*4;\n        enddate = enddate + (p_7d)*4;\n        context.set(\"fromdate\", fromdate);\n        context.set(\"enddate\", enddate);\n        break;\n    case \"minus1w\":\n        fromdate = fromdate-p_7d;\n        enddate = enddate-p_7d;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"plus1w\":\n        fromdate = fromdate+p_7d;\n        enddate = enddate+p_7d;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"minus1d\":\n        fromdate = fromdate-p_1d;\n        enddate = enddate-p_1d;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"plus1d\":\n        fromdate = fromdate+p_1d;\n        enddate = enddate+p_1d;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"minus1h\":\n        fromdate = fromdate-p_1h;\n        enddate = enddate-p_1h;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"plus1h\":\n        fromdate = fromdate+p_1h;\n        enddate = enddate+p_1h;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"zoomout\":\n        zoompoint = (enddate-fromdate)/2+fromdate;\n        zoomwindow = enddate-fromdate;\n        fromdate = zoompoint-zoomwindow;\n        enddate = zoompoint+zoomwindow;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n    case \"zoomin\":\n        zoompoint = (enddate-fromdate)/2+fromdate;\n        zoomwindow = (enddate-fromdate)/4;\n        fromdate = zoompoint-zoomwindow;\n        enddate = zoompoint+zoomwindow;\n        context.set(\"fromdate\",fromdate);\n        context.set(\"enddate\",enddate);\n        break;\n}\n\n// Convert epoch fromdate to format stored in the database.\n    var dt = new Date();\n    dt.setTime(fromdate);\n    var fdyyyy = dt.getFullYear();\n    var fdmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\n    var fddd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\n    var fdhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\n    var fdmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\n    var fdss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\n    fromdatetitle = fdyyyy + \"-\" +fdmm+ \"-\" + fddd;\n    fromdatetime = fdyyyy + \"-\" +fdmm+ \"-\" + fddd + \" \" + fdhh + \":\" + fdmmm + \":\" + fdss;\n\n// Convert epoch enddate to format stored in the database.\n    dt.setTime(enddate);\n    fdyyyy = dt.getFullYear();\n    fdmm = dt.getMonth() < 9 ? \"0\" + (dt.getMonth() + 1) : (dt.getMonth() + 1); // getMonth() is zero-based\n    fddd  = dt.getDate() < 10 ? \"0\" + dt.getDate() : dt.getDate();\n    fdhh = dt.getHours() < 10 ? \"0\" + dt.getHours() : dt.getHours();\n    fdmmm  = dt.getMinutes() < 10 ? \"0\" + dt.getMinutes() : dt.getMinutes();\n    fdss  = dt.getSeconds() < 10 ? \"0\" + dt.getSeconds() : dt.getSeconds();\n    enddatetitle = fdyyyy + \"-\" +fdmm+ \"-\" + fddd;\n    enddatetime = fdyyyy + \"-\" +fdmm+ \"-\" + fddd + \" \" + fdhh + \":\" + fdmmm + \":\" + fdss;\n\n// Reduce the number of data point acquired from the database given the period of time selected.\nreducedatapoints = (enddate-fromdate)/100000000;\nif (reducedatapoints<1) {\n    reducedatapoints = 1;\n}\ncontext.set(\"reducedatapoints\",reducedatapoints);\n\n// Reduce the number of data point acquired from the database given the number of lines selected.\nif (sourcelist.length>0 && reducedatapoints>1) {\n    reducedatapoints = reducedatapoints*sourcelist.length;\n    context.set(\"reducedatapoints\",reducedatapoints);\n}\n\n// Regenerate the SQL statements\n// Run through the data source list an generate the SQL statements\nsql = [];\n\nif (sourcelist.length>0) {\n    for (var i = 0; i < sourcelist.length; i++) {\n        // sql.push({ topic: \"SELECT * FROM sensor_data WHERE device='\"+parts[0]+\"' AND sensor='\"+parts[1]+\"' AND epoch >= \" + fromdate + \" AND epoch <= \" + enddate });\n        //sql.push({ topic: 'SELECT \"Date Time\",\"'+sourcelist[i]+'\" FROM \"Raw Solar Data\" WHERE \"Date Time\" >= \"'+fromdatetime+'\" AND \"Date Time\" <= \"'+enddatetime+'\"and (ID % \"'+reducedatapoints+'\") = 0'});\n        sql.push({ topic: 'SELECT \"Epoch\",\"'+sourcelist[i]+'\" FROM \"Raw Solar Data\" WHERE \"Epoch\" >= '+fromdate+' AND \"Epoch\" <= '+enddate+' AND (ID % \"'+reducedatapoints+'\") = 0'});\n    }\n} \n\n\nif (sql.length===0) {    \n    // Dummy select that returns nothing to clear the chart\n    sql.push({ topic: 'SELECT * FROM \"Raw Solar Data\" WHERE \"Date Time\"=\"xxxx\"' });\n}\n\n// set the completed flag for the join node later\nsql[sql.length-1].complete=true;\n\n// Generate report title\nif (sourcelist.length===0) {\n    title = \"No data source. Make a selection from the dropdown menu.\";\n} else {\n    if (sourcelist.length!==0) {\n        title = title + sourcelist.toString()+ \", \";\n    }\n    title = title.substring(0,title.length-2);\n    title = title + \" | \" + fromdatetitle + \" to \" + enddatetitle;\n}\nsql[sql.length-1].title=title;\nsql[sql.length-1].selectionlist = [sourcelist];\n\nreturn [ sql ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1660,
+        "wires": [
+            [
+                "1837f9a4218daec6"
+            ]
+        ]
+    },
+    {
+        "id": "41a0a0e26a9377f8",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "Charge controller settings",
+        "info": "",
+        "x": 150,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "a5779182328945fa",
+        "type": "csv",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "sep": " ",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "System Voltage (V),Battery Rated Ah (AH),Battery Type,High Voltage Disconnect (V),Charge Limit Voltage (V),Equalize Charge Voltage (V),Boost Charge Voltage (V),Float Charge Voltage (V),Boost Charge Return Voltage (V),Over Discharge Return Voltage (V),Low Voltage Alarm (V),Over Discharge Voltage (V),Discharge Limit Voltage (V),Over Discharge Delay Time (S),Equalize Charge Time (Min),Boost Charge Time (Min),Equalize Charge Interval (Days),Temperature Compensation (mv/C/2V)",
+        "skip": "0",
+        "x": 690,
+        "y": 2300,
+        "wires": [
+            [
+                "3f29627634b5a71a"
+            ]
+        ]
+    },
+    {
+        "id": "3f29627634b5a71a",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Prep Data",
+        "func": "\nvar output1 = {payload:msg.payload[\"System Voltage (V)\"]};\nvar output2 = {payload:msg.payload[\"Battery Rated Ah (AH)\"]};\nvar output3 = {payload:msg.payload[\"Battery Type\"]};\nvar output4 = {payload:msg.payload[\"High Voltage Disconnect (V)\"]};\nvar output5 = {payload:msg.payload[\"Charge Limit Voltage (V)\"]};\nvar output6 = {payload:msg.payload[\"Equalize Charge Voltage (V)\"]};\nvar output7 = {payload:msg.payload[\"Boost Charge Voltage (V)\"]};\nvar output8 = {payload:msg.payload[\"Float Charge Voltage (V)\"]};\nvar output9 = {payload:msg.payload[\"Boost Charge Return Voltage (V)\"]};\nvar output10 = {payload:msg.payload[\"Over Discharge Return Voltage (V)\"]};\nvar output11 = {payload:msg.payload[\"Low Voltage Alarm (V)\"]};\nvar output12 = {payload:msg.payload[\"Over Discharge Voltage (V)\"]};\nvar output13 = {payload:msg.payload[\"Discharge Limit Voltage (V)\"]};\nvar output14 = {payload:msg.payload[\"Over Discharge Delay Time (S)\"]};\nvar output15 = {payload:msg.payload[\"Equalize Charge Time (Min)\"]};\nvar output16 = {payload:msg.payload[\"Boost Charge Time (Min)\"]};\nvar output17 = {payload:msg.payload[\"Equalize Charge Interval (Days)\"]};\nvar output18 = {payload:msg.payload[\"Temperature Compensation (mv/C/2V)\"]};\n\nreturn [output1,output2,output3,output4,output5,output6,output7,output8,output9,\n        output10,output11,output12,output13,output14,output15,output16,output17,output18];",
+        "outputs": 18,
+        "noerr": 0,
+        "x": 840,
+        "y": 2300,
+        "wires": [
+            [
+                "300ceaaa9d95d3ad"
+            ],
+            [
+                "379a5254f1dede78"
+            ],
+            [
+                "43804fa45527695a"
+            ],
+            [
+                "55bc4655d65df925"
+            ],
+            [
+                "5777b2a5ec0fba5f"
+            ],
+            [
+                "77d27f4f04ba91ae"
+            ],
+            [
+                "3a04e114e593e19f"
+            ],
+            [
+                "588b45762de7b029"
+            ],
+            [
+                "ca5b5c2347641b33"
+            ],
+            [
+                "9fd9f21b80f4ddb5"
+            ],
+            [
+                "872955dd06035985"
+            ],
+            [
+                "3e974fa37418cc28"
+            ],
+            [
+                "31a839ad11670958"
+            ],
+            [
+                "00b5c49e1fb7544a"
+            ],
+            [
+                "859b86277d95229a"
+            ],
+            [
+                "ee71cc190f8976c7"
+            ],
+            [
+                "122a91495471beb4"
+            ],
+            [
+                "fc3d32fd5d41e625"
+            ]
+        ]
+    },
+    {
+        "id": "e83944e13cebc6a8",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2300,
+        "wires": [
+            [
+                "86d822e540751ed2"
+            ]
+        ]
+    },
+    {
+        "id": "2c4ba90d78f8345f",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "04 00 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 2300,
+        "wires": [
+            [
+                "e83944e13cebc6a8"
+            ]
+        ]
+    },
+    {
+        "id": "2f2e2f9b607d106e",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "-1W",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "chevron_left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "minus1w",
+        "topicType": "str",
+        "x": 90,
+        "y": 1540,
+        "wires": [
+            [
+                "ddc2ec0c2e1d6443"
+            ]
+        ]
+    },
+    {
+        "id": "a18272df86bf2b13",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "-1D",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "chevron_left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "minus1d",
+        "x": 90,
+        "y": 1580,
+        "wires": [
+            [
+                "32f348e8a53d525d"
+            ]
+        ]
+    },
+    {
+        "id": "1b3bef98f3a7803b",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 11,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "+1W",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "chevron_right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "plus1w",
+        "x": 90,
+        "y": 1820,
+        "wires": [
+            [
+                "08f8df7d1ea1defb"
+            ]
+        ]
+    },
+    {
+        "id": "a33af0e9f35a4021",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 10,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "+1D",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "chevron_right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "plus1d",
+        "x": 90,
+        "y": 1780,
+        "wires": [
+            [
+                "dc41781ef7fb48a1"
+            ]
+        ]
+    },
+    {
+        "id": "3fd2706ea54717d5",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 9,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "+1H",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "chevron_right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "plus1h",
+        "x": 90,
+        "y": 1740,
+        "wires": [
+            [
+                "7178836db5b821f3"
+            ]
+        ]
+    },
+    {
+        "id": "2cc710add9e89ab5",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "-1H",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "chevron_left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "minus1h",
+        "x": 90,
+        "y": 1620,
+        "wires": [
+            [
+                "3f0d4930dad036f4"
+            ]
+        ]
+    },
+    {
+        "id": "d3ba8645bc213e14",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 7,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "zoom_out",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "zoomout",
+        "topicType": "str",
+        "x": 90,
+        "y": 1660,
+        "wires": [
+            [
+                "a78c591a146f8f28"
+            ]
+        ]
+    },
+    {
+        "id": "dba2a69023499dbc",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "zoom_in",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "zoomin",
+        "topicType": "str",
+        "x": 90,
+        "y": 1700,
+        "wires": [
+            [
+                "8095e27d485e674f"
+            ]
+        ]
+    },
+    {
+        "id": "163f9126ca8c69f6",
+        "type": "ui_dropdown",
+        "z": "d4d7245780a32437",
+        "name": "Data source",
+        "label": "",
+        "tooltip": "",
+        "place": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "[Remove all]",
+                "value": "delete",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Voltage",
+                "value": "Trimetric Voltage",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Filtered Voltage",
+                "value": "Trimetric Filtered Voltage",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Voltage B2",
+                "value": "Trimetric Voltage B2",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Amperage",
+                "value": "Trimetric Amperage",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Filtered Amperage",
+                "value": "Trimetric Filtered Amperage",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Amp Hours",
+                "value": "Trimetric Amp Hours",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Percentage",
+                "value": "Trimetric Percentage",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Watts",
+                "value": "Trimetric Watts",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Days Since Charged",
+                "value": "Trimetric Days Since Charged",
+                "type": "str"
+            },
+            {
+                "label": "Trimetric Days Since Equalized",
+                "value": "Trimetric Days Since Equalized",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Controller Temperature",
+                "value": "Renogy Rover Controller Temperature",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Voltage Min",
+                "value": "Renogy Rover Battery Voltage Min",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Voltage Actual",
+                "value": "Renogy Rover Battery Voltage Actual",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Voltage Max",
+                "value": "Renogy Rover Battery Voltage Max",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Charging Amperage Actual",
+                "value": "Renogy Rover Battery Charging Amperage Actual",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Charging Amperage Max",
+                "value": "Renogy Rover Battery Charging Amperage Max",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Amp Hours Generated Today",
+                "value": "Renogy Rover Battery Amp Hours Generated Today",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Amp Hours Generated Total",
+                "value": "Renogy Rover Battery Amp Hours Generated Total",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Watt Hours Generated Today",
+                "value": "Renogy Rover Battery Watt Hours Generated Today",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Watt Hours Generated Total",
+                "value": "Renogy Rover Battery Watt Hours Generated Total",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Maximum Wattage Generated",
+                "value": "Renogy Rover Battery Maximum Wattage Generated",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Percentage",
+                "value": "Renogy Rover Battery Percentage",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Temperature",
+                "value": "Renogy Rover Battery Temperature",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Times Over Discharged",
+                "value": "Renogy Rover Battery Times Over Discharged",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Battery Times Fully Charged",
+                "value": "Renogy Rover Battery Times Fully Charged",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Solar Panel Voltage Actual",
+                "value": "Renogy Rover Solar Panel Voltage Actual",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Solar Panel Amperage Actual",
+                "value": "Renogy Rover Solar Panel Amperage Actual",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Solar Panel Wattage Actual",
+                "value": "Renogy Rover Solar Panel Wattage Actual",
+                "type": "str"
+            },
+            {
+                "label": "Renogy Rover Charging State Number",
+                "value": "Renogy Rover Charging State Number",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "datasource",
+        "topicType": "str",
+        "className": "",
+        "x": 450,
+        "y": 1400,
+        "wires": [
+            [
+                "a1dec36a289a9a80"
+            ]
+        ]
+    },
+    {
+        "id": "b167e980b2471b20",
+        "type": "ui_dropdown",
+        "z": "d4d7245780a32437",
+        "name": "Period",
+        "label": "",
+        "tooltip": "",
+        "place": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Today",
+                "value": "today",
+                "type": "str"
+            },
+            {
+                "label": "Yesterday",
+                "value": "yesterday",
+                "type": "str"
+            },
+            {
+                "label": "This week",
+                "value": "thisweek",
+                "type": "str"
+            },
+            {
+                "label": "Last week",
+                "value": "lastweek",
+                "type": "str"
+            },
+            {
+                "label": "Last 24 hours",
+                "value": "last24h",
+                "type": "str"
+            },
+            {
+                "label": "Last 12 hours",
+                "value": "last12h",
+                "type": "str"
+            },
+            {
+                "label": "Last 6 hours",
+                "value": "last6h",
+                "type": "str"
+            },
+            {
+                "label": "Last 4 hours",
+                "value": "last4h",
+                "type": "str"
+            },
+            {
+                "label": "Last 2 hours",
+                "value": "last2h",
+                "type": "str"
+            },
+            {
+                "label": "Last hour",
+                "value": "last1h",
+                "type": "str"
+            },
+            {
+                "label": "Last 7 days",
+                "value": "last7d",
+                "type": "str"
+            },
+            {
+                "label": "Last 30 days",
+                "value": "last30d",
+                "type": "str"
+            },
+            {
+                "label": "Last 60 days",
+                "value": "last60d",
+                "type": "str"
+            },
+            {
+                "label": "Last 90 days",
+                "value": "last90d",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "period",
+        "topicType": "str",
+        "className": "",
+        "x": 430,
+        "y": 1460,
+        "wires": [
+            [
+                "a1dec36a289a9a80"
+            ]
+        ]
+    },
+    {
+        "id": "c2c5fb6ad0e29c7e",
+        "type": "ui_text",
+        "z": "d4d7245780a32437",
+        "group": "1c3730fd.8b14bf",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "name": "Chart title",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 1460,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "1a4c3d2c171535f7",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "bef36201.29e7b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Charge Controller Temp.",
+        "label": "Celsius",
+        "format": "{{value}}",
+        "min": "-15",
+        "max": "45",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "5",
+        "seg2": "32",
+        "className": "dashboard",
+        "x": 1510,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "771fd90759521557",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "bef36201.29e7b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Battery Temp.",
+        "label": "Celsius",
+        "format": "{{value}}",
+        "min": "-15",
+        "max": "35",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "5",
+        "seg2": "25",
+        "className": "dashboard",
+        "x": 1480,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "0a2bc0527ea8a649",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "5c0a4bfe.408644",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Trimetric Wattage",
+        "label": "Watts",
+        "format": "{{value}}",
+        "min": "-2000",
+        "max": "400",
+        "colors": [
+            "#ff0000",
+            "#80ff00",
+            "#00ff00"
+        ],
+        "seg1": "0",
+        "seg2": "100",
+        "className": "dashboard",
+        "x": 1490,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "dbfac530cde9ac05",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "2f66919c.102b7e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Max Wattage",
+        "label": "Watts",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "400",
+        "colors": [
+            "#80ff00",
+            "#40ff00",
+            "#00ff00"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "className": "dashboard",
+        "x": 1470,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "243154080c931645",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "46f6466b.ee5518",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Solar Panel Voltage",
+        "label": "Volts",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "25",
+        "colors": [
+            "#ff0000",
+            "#80ff00",
+            "#00ff00"
+        ],
+        "seg1": "12",
+        "seg2": "15",
+        "className": "dashboard",
+        "x": 1500,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "47444f6d277dc2eb",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "46f6466b.ee5518",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Solar Panel Amperage",
+        "label": "Amps",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#80ff00",
+            "#40ff00",
+            "#00ff00"
+        ],
+        "seg1": "10",
+        "seg2": "20",
+        "className": "dashboard",
+        "x": 1500,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "aaf421c24a047d5b",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "46f6466b.ee5518",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Solar Panel Wattage",
+        "label": "Watts",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "400",
+        "colors": [
+            "#80ff00",
+            "#40ff00",
+            "#00ff00"
+        ],
+        "seg1": "100",
+        "seg2": "200",
+        "className": "dashboard",
+        "x": 1500,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7e92bcfc9b6f462a",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "5c0a4bfe.408644",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Trimetric Amperage",
+        "label": "Amps",
+        "format": "{{value}}",
+        "min": "-175",
+        "max": "40",
+        "colors": [
+            "#ff0000",
+            "#80ff00",
+            "#00ff00"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "dashboard",
+        "x": 1500,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "439e9f9d99875ca5",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "5c0a4bfe.408644",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Trimetric Voltage",
+        "label": "Volts",
+        "format": "{{value}}",
+        "min": "10",
+        "max": "16",
+        "colors": [
+            "#ff0000",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "11.5",
+        "seg2": "14.5",
+        "className": "dashboard",
+        "x": 1490,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "71f899022fed4c97",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "fdf6cd28.ce653",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Renogy Voltage",
+        "label": "Volts",
+        "format": "{{value}}",
+        "min": "10",
+        "max": "16",
+        "colors": [
+            "#ff0000",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "11.5",
+        "seg2": "14.5",
+        "className": "dashboard",
+        "x": 1480,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "5ae6ade3dc0eaf8b",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "fdf6cd28.ce653",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Renogy Amperage",
+        "label": "Amps",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#80ff00",
+            "#40ff00",
+            "#00ff00"
+        ],
+        "seg1": "10",
+        "seg2": "20",
+        "className": "dashboard",
+        "x": 1490,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "0f76458d4081ca38",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "2f66919c.102b7e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Max Voltage",
+        "label": "Volts",
+        "format": "{{value}}",
+        "min": "10",
+        "max": "16",
+        "colors": [
+            "#ff0000",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "11.5",
+        "seg2": "14.5",
+        "className": "dashboard",
+        "x": 1470,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "bc14244ff9e04f55",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "2f66919c.102b7e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Max Amperage",
+        "label": "Amps",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#80ff00",
+            "#40ff00",
+            "#00ff00"
+        ],
+        "seg1": "10",
+        "seg2": "20",
+        "className": "dashboard",
+        "x": 1480,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b2bdb856f09dfe61",
+        "type": "ui_gauge",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "bef36201.29e7b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Amp Hours",
+        "label": "A/H",
+        "format": "{{value}}",
+        "min": "-400",
+        "max": "10",
+        "colors": [
+            "#ff0000",
+            "#80ff80",
+            "#ffc0cb"
+        ],
+        "seg1": "-110",
+        "seg2": "0",
+        "className": "dashboard",
+        "x": 1470,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "8b62a244631331ce",
+        "type": "ui_chart",
+        "z": "d4d7245780a32437",
+        "name": "Chart",
+        "group": "1c3730fd.8b14bf",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": "",
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#ff0080",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 1450,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7f511763bdbf408",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "529afbd3.e1bf54",
+        "name": "30 Days",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"2\">{{msg.title}}</td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 300%; font-weight: bold;\">{{msg.current}}</span><br/>{{msg.unit}}</td>\n            <td style=\"text-align: center; font-size: 300%; font-weight: bold;\" ng-style=\"{color: msg.trend === 'up' ? 'green' : 'red'}\">{{(msg.trend === 'up') ? '&#8679;' : '&#8681;'}}</td>\n        </tr>\n        <tr>\n            <td style=\"text-align: center; font-style: italic;\">{{msg.reference}}</td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1460,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd2f84e0ad42eed1",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "529afbd3.e1bf54",
+        "name": "Target",
+        "order": 3,
+        "width": 5,
+        "height": 4,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\" style=\"border-collapse: collapse;\">\n        <tr>\n            <td colspan=\"2\">{{msg.title}}</td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 300%; font-weight: bold;\">{{msg.current}}</span><br/>{{msg.unit}}</td>\n            <td style=\"text-align: center; font-size: 300%; font-weight: bold;\" ng-style=\"{color: msg.trend === 'up' ? 'green' : 'red'}\">&nbsp;</td>\n        </tr>\n        <tr>\n            <td style=\"text-align: center; font-style: italic;\">{{msg.reference}}</td>\n        </tr>\n        <tr style=\"background-color: lightgrey;\"><td colspan=\"2\">\n            <table width=\"100%\" height=\"100%\" style=\"border-collapse: collapse;\"><tr>\n            <td width={{msg.reference}} style=\"border-bottom: 6px solid blue;\"></td><td width={{msg.reference2}}></td>\n            </tr></table></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1450,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9451a7d93faa7507",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "529afbd3.e1bf54",
+        "name": "7 Days",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"2\">{{msg.title}}</td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 300%; font-weight: bold;\">{{msg.current}}</span><br/>{{msg.unit}}</td>\n            <td style=\"text-align: center; font-size: 300%; font-weight: bold;\" ng-style=\"{color: msg.trend === 'up' ? 'green' : 'red'}\">{{(msg.trend === 'up') ? '&#8679;' : '&#8681;'}}</td>\n        </tr>\n        <tr>\n            <td style=\"text-align: center; font-style: italic;\">{{msg.reference}}</td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1460,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f322141a911cadd",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "fdf6cd28.ce653",
+        "name": "Charging Status",
+        "order": 3,
+        "width": 5,
+        "height": 4,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td columspan=\"1\" style=\"font-face: Verdana;font-size: 140%;text-align: center;\">Charging Status<br/><br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1480,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "106ea75bd091d178",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4422b57.5851e4c",
+        "name": "Min Wattage",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"3\" style=\"font-face: Arial;font-size: 100%;\">{{msg.title}}<br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;font-weight: bold;\">{{msg.current}}{{msg.unit}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1470,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1d636e43d47eb7a",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "877d63a3.c3b33",
+        "name": "Max Voltage",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\" style=\"border-collapse: collapse;\">\n        <tr>\n            <td colspan=\"3\" style=\"font-face: Arial;font-size: 100%;\">{{msg.title}}<br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;font-weight: bold;\">{{msg.current}}{{msg.unit}}</span></td>\n        </tr>\n    </table>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1470,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "21887d496ecf8d86",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "877d63a3.c3b33",
+        "name": "Max Amperage",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"3\" style=\"font-face: Arial;font-size: 100%;\">{{msg.title}}<br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;font-weight: bold;\">{{msg.current}}{{msg.unit}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1480,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2813800616609f38",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "877d63a3.c3b33",
+        "name": "Max Wattage",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"3\" style=\"font-face: Arial;font-size: 100%;\">{{msg.title}}<br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;font-weight: bold;\">{{msg.current}}{{msg.unit}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1470,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb473ef573658b0f",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4422b57.5851e4c",
+        "name": "Min Voltage",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"3\" style=\"font-face: Arial;font-size: 100%;\">{{msg.title}}<br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;font-weight: bold;\">{{msg.current}}{{msg.unit}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1470,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9913f387fa94d164",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4422b57.5851e4c",
+        "name": "Min Amperage",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"3\" style=\"font-face: Arial;font-size: 100%;\">{{msg.title}}<br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 230%;font-weight: bold;\">{{msg.current}}{{msg.unit}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1480,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "300ceaaa9d95d3ad",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "5718a5a8.f8411c",
+        "name": "System Voltage (V)",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">System Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1490,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "379a5254f1dede78",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "5718a5a8.f8411c",
+        "name": "Battery Rated Ah (AH)",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Battery Rated Ah (AH)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1500,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43804fa45527695a",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "5718a5a8.f8411c",
+        "name": "Battery Type",
+        "order": 5,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Battery Type<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1470,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55bc4655d65df925",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "High Voltage Disconnect (V)",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">High Voltage Disconnect (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1520,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5777b2a5ec0fba5f",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Charge Limit Voltage (V)",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Charge Limit Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1510,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "77d27f4f04ba91ae",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Equalize Charge Voltage (V)",
+        "order": 5,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Equalize Charge Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1520,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a04e114e593e19f",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Boost Charge Voltage (V)",
+        "order": 8,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Boost Charge Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1510,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "588b45762de7b029",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Float Charge Voltage (V)",
+        "order": 10,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Float Charge Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1510,
+        "y": 2240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca5b5c2347641b33",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Boost Charge Return Voltage (V)",
+        "order": 12,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Boost Charge Return Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1540,
+        "y": 2280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9fd9f21b80f4ddb5",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Over-discharge Return Voltage (V)",
+        "order": 15,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Over-discharge Return Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1540,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "872955dd06035985",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Low Voltage Alarm (V)",
+        "order": 17,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Low Voltage Alarm (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1500,
+        "y": 2360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e974fa37418cc28",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Over-discharge Voltage (V)",
+        "order": 19,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Over-discharge Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1520,
+        "y": 2400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31a839ad11670958",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Discharge Limit Voltage (V)",
+        "order": 22,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Discharge Limit Voltage (V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1520,
+        "y": 2440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "00b5c49e1fb7544a",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Over-discharge Delay Time (S)",
+        "order": 24,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Over-discharge Delay Time (S)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1530,
+        "y": 2480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "859b86277d95229a",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Equalize Charge Time (Min)",
+        "order": 26,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Equalize Charge Time (Min)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1520,
+        "y": 2520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee71cc190f8976c7",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Boost Charge Time (Min)",
+        "order": 29,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Boost Charge Time (Min)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1510,
+        "y": 2560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "122a91495471beb4",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Equalize Charge Interval (Days)",
+        "order": 31,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Equalize Charge Interval (Days)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1530,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc3d32fd5d41e625",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "4a67c534.ba6e6c",
+        "name": "Temperature Compensation (mv/C/2V)",
+        "order": 33,
+        "width": 5,
+        "height": 2,
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <table width=\"100%\" height=\"100%\">\n        <tr>\n            <td colspan=\"1\" style=\"font-face: Arial;font-size: 110%;\">Temp. Compensation (mv/C/2V)<br/><br></td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" style=\"text-align: center;\"><span style=\"font-size: 110%;font-weight: bold;\">{{msg.payload}}</span></td>\n        </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1550,
+        "y": 2640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41b25270b08b6320",
+        "type": "change",
+        "z": "d4d7245780a32437",
+        "name": "Processing Title",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Working on it!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 1560,
+        "wires": [
+            [
+                "c2c5fb6ad0e29c7e"
+            ]
+        ]
+    },
+    {
+        "id": "fe66c9e89ed97ef4",
+        "type": "cronplus",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "outputField": "payload",
+        "timeZone": "",
+        "outputs": 1,
+        "options": [
+            {
+                "topic": "Every Minute",
+                "payload": "",
+                "type": "date",
+                "expression": "0 * * * * *",
+                "name": "Every Minute"
+            }
+        ],
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "2480ae5e17353a77"
+            ]
+        ]
+    },
+    {
+        "id": "0db6394bcd7a6d16",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 950,
+        "y": 1660,
+        "wires": [
+            [
+                "1513db1dd5ee5559",
+                "41b25270b08b6320"
+            ]
+        ]
+    },
+    {
+        "id": "deab048f0129530f",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 720,
+        "wires": [
+            [
+                "4d92fb9bb70f299d"
+            ]
+        ]
+    },
+    {
+        "id": "9402050d6cbafd7f",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 780,
+        "wires": [
+            [
+                "ce7f186e34b7197c"
+            ]
+        ]
+    },
+    {
+        "id": "8bf32c79c60699d7",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 840,
+        "wires": [
+            [
+                "abc527d1b12cfd49"
+            ]
+        ]
+    },
+    {
+        "id": "1ade08d1a6a00913",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "c29967350a7c8d51"
+            ]
+        ]
+    },
+    {
+        "id": "4174a22ce7975b38",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 1200,
+        "wires": [
+            [
+                "057770f0045ddae3"
+            ]
+        ]
+    },
+    {
+        "id": "057152b3675178d3",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 900,
+        "wires": [
+            [
+                "113bc69c4bf68229"
+            ]
+        ]
+    },
+    {
+        "id": "9c64ed8036520391",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 960,
+        "wires": [
+            [
+                "437d1ba17cda5a6d"
+            ]
+        ]
+    },
+    {
+        "id": "7728ba8eb27a7298",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 1020,
+        "wires": [
+            [
+                "21ccc3d10e98f4a5"
+            ]
+        ]
+    },
+    {
+        "id": "bc105e20a8ce40f5",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 1080,
+        "wires": [
+            [
+                "259a20fbbbfb8aeb"
+            ]
+        ]
+    },
+    {
+        "id": "b54b6e49042a55db",
+        "type": "sqlite",
+        "z": "d4d7245780a32437",
+        "mydb": "859a02e0.c8257",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 1010,
+        "y": 1140,
+        "wires": [
+            [
+                "adc3ea9fe1d879d1"
+            ]
+        ]
+    },
+    {
+        "id": "86d822e540751ed2",
+        "type": "pythonshell in",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pyfile": "/home/solarpi/PycharmProjects/SolarDataCollection/read-controller-settings.py",
+        "virtualenv": "/home/solarpi/PycharmProjects/SolarDataCollection/venv",
+        "continuous": false,
+        "stdInData": false,
+        "x": 520,
+        "y": 2300,
+        "wires": [
+            [
+                "a5779182328945fa"
+            ]
+        ]
+    },
+    {
+        "id": "122e649127ebb63d",
+        "type": "change",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ui_control.options.minLabelMinFontSize",
+                "pt": "msg",
+                "to": "12",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.maxLabelMinFontSize",
+                "pt": "msg",
+                "to": "12",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.labelMinFontSize",
+                "pt": "msg",
+                "to": "14",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "24",
+                "tot": "str"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 180,
+        "wires": [
+            [
+                "771fd90759521557",
+                "0a2bc0527ea8a649",
+                "dbfac530cde9ac05",
+                "243154080c931645",
+                "47444f6d277dc2eb",
+                "aaf421c24a047d5b",
+                "7e92bcfc9b6f462a",
+                "439e9f9d99875ca5",
+                "71f899022fed4c97",
+                "5ae6ade3dc0eaf8b",
+                "0f76458d4081ca38",
+                "bc14244ff9e04f55",
+                "b2bdb856f09dfe61",
+                "1a4c3d2c171535f7"
+            ]
+        ]
+    },
+    {
+        "id": "8bd1babbed0c86f9",
+        "type": "ui_ui_control",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "b0f88f0e2276a2c7"
+            ]
+        ]
+    },
+    {
+        "id": "efdde18d92c48083",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "To send options when dashboard connects",
+        "info": "",
+        "x": 200,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b0f88f0e2276a2c7",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "40",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "122e649127ebb63d"
+            ]
+        ]
+    },
+    {
+        "id": "2df06f619bc6ccd8",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "Let gauge to be initialized before change any options",
+        "info": "There will be browser errors otherwise ",
+        "x": 650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "92802f36801adb9d",
+        "type": "comment",
+        "z": "d4d7245780a32437",
+        "name": "Change the options",
+        "info": "gauge scales according to predefined card size\ndefined font sizes are not absolute values but minimum values\nFor example if you make your gauge smaller, the changed font sizes may happen to be too large and will overlap.\n\nminLabelMinFontSize - minimum size of min field // number\nmaxLabelMinFontSize - minimum size of max field // number\nlabelMinFontSize - minimum size of units field // numbert\n\ndelete msg.payload cos it does not contain proper value",
+        "x": 1050,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9ea01099483f9c09",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Chart Prep",
+        "func": "var msg2 = [];\nvar chart = [{\n    \"series\":[],\n    \"data\":[],\n    \"labels\":[msg.title]\n}];\n\nif (msg.payload[0].length>0) {\n    // this is the logic when there are multiple data sets are received\n    for (var i=0; i<msg.payload.length; i++) {\n        chart[0].series.push(msg.selectionlist[0][i]);\n        chart[0].data.push([]);\n        let newdata = [];\n        for (var j=0; j<msg.payload[i].length; j++) {\n            chart[0].data[i].push({\"x\":msg.payload[i][j][\"Epoch\"], \"y\":msg.payload[i][j][msg.selectionlist[0][i]]});\n        }\n    }\n} \n\nif (msg.payload[0].length > 0) {\n    msg.payload=chart;\n} else {\n    msg.payload=msg2\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 1660,
+        "wires": [
+            [
+                "8b62a244631331ce"
+            ]
+        ]
+    },
+    {
+        "id": "e8f2171f7f1c4bbd",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "Config chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1010,
+        "y": 1820,
+        "wires": [
+            [
+                "ba7d2ab1fca22f7c"
+            ]
+        ]
+    },
+    {
+        "id": "ba7d2ab1fca22f7c",
+        "type": "function",
+        "z": "d4d7245780a32437",
+        "name": "Chart config",
+        "func": "msg.ui_control = {\n    options: {\n        scales: {\n            \n            yAxes: [{\n                gridLines:{\n                    color:'#99999933',\n                    zeroLineColor:'#99999933',\n                    tickMarkLength:5\n                },\n                ticks: {\n                   fontSize:14,\n                   lineHeight:1\n                }\n            }],\n             xAxes: [{\n               type:'time',\n                time: {\n                    distribution: 'series',\n                    \n                },\n                 gridLines:{\n                    color:'#99999933',\n                    zeroLineColor:'#99999933',\n                    tickMarkLength:5\n                },\n                \n                ticks: {\n                   fontSize:14,\n                   lineHeight:1\n                }\n            }],\n           \n        }\n    }\n}\ndelete msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1820,
+        "wires": [
+            [
+                "8b62a244631331ce"
+            ]
+        ]
+    },
+    {
+        "id": "acb2b02c6e3d04bd",
+        "type": "ui_ui_control",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "events": "all",
+        "x": 620,
+        "y": 1760,
+        "wires": [
+            [
+                "df165d360fb47f7e"
+            ]
+        ]
+    },
+    {
+        "id": "df165d360fb47f7e",
+        "type": "delay",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "40",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 1760,
+        "wires": [
+            [
+                "7349bfc7358c77cf"
+            ]
+        ]
+    },
+    {
+        "id": "7349bfc7358c77cf",
+        "type": "change",
+        "z": "d4d7245780a32437",
+        "name": "Change chart tooltip options",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ui_control.options.tooltips.bodyFontSize",
+                "pt": "msg",
+                "to": "16",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.tooltips.titleFontSize",
+                "pt": "msg",
+                "to": "18",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.tooltips.titleFontStyle",
+                "pt": "msg",
+                "to": "bold",
+                "tot": "str"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2895bbb1e302d10",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 12,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "+4W",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "chevron_right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "plus4w",
+        "topicType": "str",
+        "x": 90,
+        "y": 1860,
+        "wires": [
+            [
+                "584f9339de8e4167"
+            ]
+        ]
+    },
+    {
+        "id": "52cd245b02b2890f",
+        "type": "ui_button",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "group": "1c3730fd.8b14bf",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "-4W",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "chevron_left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "minus4w",
+        "topicType": "str",
+        "x": 90,
+        "y": 1500,
+        "wires": [
+            [
+                "419c0476d5f4f71c"
+            ]
+        ]
+    },
+    {
+        "id": "d4f8774620f34c9d",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "delete",
+        "payloadType": "str",
+        "x": 250,
+        "y": 1340,
+        "wires": [
+            [
+                "163f9126ca8c69f6"
+            ]
+        ]
+    },
+    {
+        "id": "2113ca11333e2747",
+        "type": "inject",
+        "z": "d4d7245780a32437",
+        "name": "Set Title",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "No data source. Make a selection from the dropdown menu.",
+        "payloadType": "str",
+        "x": 1180,
+        "y": 1500,
+        "wires": [
+            [
+                "c2c5fb6ad0e29c7e"
+            ]
+        ]
+    },
+    {
+        "id": "f3b353a2e54c2e6e",
+        "type": "ui_template",
+        "z": "d4d7245780a32437",
+        "group": "bef36201.29e7b",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .dashboard{\n        font-family: Verdana, Arial, Helvetica, sans-serif;\n        font-size: 100%;\n        font-style: normal;\n        font-weight: normal;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 840,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    }
+]
