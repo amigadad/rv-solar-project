@@ -1448,7 +1448,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "outputs": 1,
-        "x": 520,
+        "x": 500,
         "y": 340,
         "wires": [
             [
